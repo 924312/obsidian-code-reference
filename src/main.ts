@@ -27,6 +27,7 @@ type Language =
 	| "TypeScript"
 	| "Python"
 	| "Go"
+	| "PowerShell"
 	| "Rust"
 	| "SQL"
 	| "Shell"
@@ -37,6 +38,7 @@ const LANGUAGES: Language[] = [
 	"TypeScript",
 	"Python",
 	"Go",
+	"PowerShell",
 	"Rust",
 	"SQL",
 	"Shell",
@@ -48,6 +50,7 @@ const LANG_HIGHLIGHT: Record<Language, string> = {
 	TypeScript: "typescript",
 	Python: "python",
 	Go: "go",
+	PowerShell: "powershell",
 	Rust: "rust",
 	SQL: "sql",
 	Shell: "bash",
